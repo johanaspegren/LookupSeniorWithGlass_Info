@@ -16,13 +16,13 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.glass.cardsample">
+    package="com.example.android.glass.seniorinfo">
 
   <application
       android:allowBackup="true"
-      android:icon="@mipmap/ic_launcher"
+      android:icon="@drawable/logolist"
       android:label="@string/app_name"
-      android:roundIcon="@mipmap/ic_launcher"
+      android:roundIcon="@drawable/logolist"
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <!--
@@ -39,16 +39,18 @@
         android:name="com.google.android.glass.TouchEnabledApplication"
         android:value="true" />
 
-    <activity android:name="com.example.android.glass.cardsample.MainActivity">
+    <activity android:name="com.example.android.glass.seniorinfo.MainActivity">
       <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
+        <action android:name="com.example.android.glass.seniorinfo.FOO"/>
+        <category android:name="android.intent.category.DEFAULT" />
 
+        <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
         <category android:name="com.google.android.glass.category.DIRECTORY"/>
       </intent-filter>
     </activity>
     <activity
-        android:name="com.example.android.glass.cardsample.menu.MenuActivity"
+        android:name="com.example.android.glass.seniorinfo.menu.MenuActivity"
         android:theme="@style/MenuTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>

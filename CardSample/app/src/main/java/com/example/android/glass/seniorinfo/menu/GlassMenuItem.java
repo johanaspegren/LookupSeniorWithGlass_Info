@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample.menu;
+package com.example.android.glass.seniorinfo.menu;
 
 import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
  Copyright 2019 Google LLC
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +14,7 @@
  limitations under the License.
 -->
 <resources>
-  <string name="app_name">QR Code Scanner Sample</string>
-  <string name="tap_to_scan_qr_code">Tap to scan QR code</string>
-  <string name="result_label">Result:</string>
+    <string name="app_name">QR Code Scanner Sample</string>
+    <string name="tap_to_scan_qr_code">Tap to scan QR code</string>
+    <string name="result_label">Result:</string>
 </resources>

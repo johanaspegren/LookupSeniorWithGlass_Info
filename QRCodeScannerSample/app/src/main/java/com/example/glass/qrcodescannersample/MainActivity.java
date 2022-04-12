@@ -54,8 +54,14 @@ public class MainActivity extends BaseActivity {
         resultLabel.setVisibility(View.VISIBLE);
         scanResult.setVisibility(View.VISIBLE);
         scanResult.setText(qrData);
+        showCard(qrData);
       }
     }
+  }
+
+  private void showCard(String qrData) {
+    Intent i = new Intent(this, CardActivity.class);
+    startActivity(i);
   }
 
   /**

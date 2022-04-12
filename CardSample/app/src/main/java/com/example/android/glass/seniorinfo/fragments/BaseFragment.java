@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample.fragments;
+package com.example.android.glass.seniorinfo.fragments;
 
 import static android.app.Activity.RESULT_OK;
 
 import android.content.Intent;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
-import com.example.android.glass.cardsample.R;
-import com.example.android.glass.cardsample.menu.MenuActivity;
+import com.example.android.glass.seniorinfo.R;
+import com.example.android.glass.seniorinfo.menu.MenuActivity;
 
 /**
  * Base class for each fragment. Provides functionality to start new activity with a menu.
@@ -60,7 +60,7 @@ public abstract class BaseFragment extends Fragment implements OnSingleTapUpList
    * Code for a response to selected menu item should be placed inside of this method.
    *
    * @param requestCode is a code which should match the {@link BaseFragment#REQUEST_CODE}
-   * @param resultCode is a code set by the {@link com.example.android.glass.cardsample.menu.MenuActivity}
+   * @param resultCode is a code set by the {@link com.example.android.glass.seniorinfo.menu.MenuActivity}
    * @param data is a id passed by the {@link MenuActivity#EXTRA_MENU_ITEM_ID_KEY} key. Refers to
    * the selected menu option
    */

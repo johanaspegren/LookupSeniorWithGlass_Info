@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample.menu;
+package com.example.android.glass.seniorinfo.menu;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.android.glass.cardsample.databinding.MenuItemBinding;
+import com.example.android.glass.seniorinfo.databinding.MenuItemBinding;
 import java.util.List;
 
 /**

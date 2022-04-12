@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample.fragments;
+package com.example.android.glass.seniorinfo.fragments;
 
 /**
  * Listener for the singleTapUp gesture.

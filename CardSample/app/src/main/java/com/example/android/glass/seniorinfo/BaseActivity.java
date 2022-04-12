@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample;
+package com.example.android.glass.seniorinfo;
 
 import android.os.Bundle;
 import android.view.MotionEvent;

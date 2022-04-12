@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.glass.cardsample.menu;
+package com.example.android.glass.seniorinfo.menu;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,8 +30,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.LayoutManager;
 import androidx.recyclerview.widget.RecyclerView.OnScrollListener;
 import androidx.recyclerview.widget.SnapHelper;
-import com.example.android.glass.cardsample.BaseActivity;
-import com.example.android.glass.cardsample.R;
+import com.example.android.glass.seniorinfo.BaseActivity;
+import com.example.android.glass.seniorinfo.R;
 import com.example.glass.ui.GlassGestureDetector.Gesture;
 import com.example.glass.ui.GlassGestureDetector.OnGestureListener;
 import java.util.ArrayList;
